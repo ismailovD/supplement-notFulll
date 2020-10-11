@@ -1,0 +1,367 @@
+@import 'font.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar button:focus {
+    outline: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    font-family: 'raleway-semiBold';
+}
+
+.navbar-brand img {
+    margin-right: 20px;
+}
+
+.btn {
+    color: #170f20;
+    border-color: #170f20;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    border-color: #18a3dd;
+    background-color: #18a3dd;
+    box-shadow: 1px 1px 5px #18a3dd;
+}
+
+.navbar {
+    padding: 24px 10px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 180px;
+
+}
+
+.cls-1 {
+    font-size: 20px;
+    fill: #18a3dd;
+    font-family: FontAwesome;
+    text-transform: uppercase;
+}
+
+header {
+    padding-bottom: 180px;
+}
+
+.header-title h1 {
+    font-family: 'raleway-extraBold';
+    text-transform: uppercase;
+    font-size: 72px;
+    color: #333740;
+}
+
+.header-title p {
+    font-family: 'raleway-extraBold';
+    font-size: 24px;
+    color: #333740;
+    text-transform: capitalize;
+}
+
+.header-title {
+    padding-left: 33px;
+    border-left: solid #18a3dd 5px;
+    margin-bottom: 76px;
+}
+
+.header-description p {
+    color: #666666;
+    font-family: 'raleway-light';
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.header-buttons button {
+    padding: 19px 39px;
+    line-height: 12px;
+    background: #18a3dd;
+    border-radius: 25px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 28px;
+    transition: all 0.5s;
+}
+
+.header-buttons button:hover {
+    box-shadow: 1px 1px 15px #18a3dd;
+
+}
+
+.buttonSvg {
+    display: flex;
+    align-items: center;
+}
+
+.buttonSvg svg {
+    margin-bottom: -6px;
+    transition: all 0.5s;
+    margin-left: 2px;
+}
+
+.buttonSvg:hover svg {
+    margin-left: 5px;
+}
+
+.buttonSvg a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'lato-bold';
+    color: #333740;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.seam {
+    background: linear-gradient(130deg, #0f0816, #21172b);
+    height: 350px;
+}
+
+.seam-content h3 {
+    font-size: 16px;
+    font-family: 'lato-bold';
+    color: #18a3dd;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.seam-content p {
+    font-size: 16px;
+    color: #a9a9a9;
+    font-family: 'raleway-light';
+}
+
+.seam-title {
+    margin-bottom: 15px;
+
+}
+
+.seam-title h2::before {
+    content: '';
+    width: 5px;
+    height: 47px;
+    background: #18a3dd;
+    position: absolute;
+    bottom: 14px;
+    left: -23px;
+    border-radius: 2px;
+}
+
+.seam-title h2 {
+    font-size: 72px;
+    font-family: 'lato-black';
+    color: #fff;
+    position: relative;
+    margin-left: 23px;
+
+}
+
+.seam {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.seam-content {
+    width: 70%;
+    justify-content: space-around;
+}
+
+.seam-img {
+    position: absolute;
+    top: -123px;
+    left: 4%;
+}
+
+main {
+    padding-top: 70px;
+}
+
+.title-light {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.titles {
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.titles h3:nth-child(1) {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: solid #18a3dd 1px;
+    font-size: 30px;
+    color: #333740;
+    font-family: 'raleway-extraBold';
+    text-transform: uppercase;
+}
+
+.titles h3:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'raleway-light';
+    color: #333740;
+}
+
+.title-light p {
+    font-family: 'raleway-light';
+    font-size: 16px;
+    color: #83888f;
+
+}
+.benefits{
+    padding-bottom: 63px;
+}
+.benefits-left {
+    padding-top: 60px;
+}
+
+.benefits-right {
+    padding-top: 60px;
+}
+
+.benefits-left-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.benefits-left-items h3 {
+    font-size: 20px;
+    font-family: 'raleway-bold';
+    color: #333740;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    position: relative;
+    margin-right: 27px;
+}
+
+.benefits-left-items h3::before {
+    content: '';
+    position: absolute;
+    right: -25px;
+    bottom: -14px;
+    width: 4px;
+    height: 35px;
+    background: #18a3dd;
+    border-radius: 5px;
+}
+
+.benefits-left-items p {
+    font-size: 15px;
+    color: #5b5f64;
+    font-family: 'raleway-light';
+    line-height: 24px;
+    text-align: right;
+}
+.benefits-right-items h3 {
+    font-size: 20px;
+    font-family: 'raleway-bold';
+    color: #333740;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    position: relative;
+    margin-left: 27px;
+}
+
+.benefits-right-items h3::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    bottom: -14px;
+    width: 4px;
+    height: 35px;
+    background: #18a3dd;
+    border-radius: 5px;
+}
+
+.benefits-right-items p {
+    font-size: 15px;
+    color: #5b5f64;
+    font-family: 'raleway-light';
+    line-height: 24px;
+    
+}
+.benefits-middle img{
+    margin: 0 auto;
+    display: block;
+    max-width: 308px;
+    width: 100%;
+
+}
+.benefits-right-items{
+    margin-bottom: 40px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+
+    body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+
+    .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+
+    }
